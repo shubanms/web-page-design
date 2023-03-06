@@ -1,0 +1,17 @@
+{% block contentA %}
+<div class="container w-50">
+    <form method="POST" action="">
+{{form.hidden_tag()}}
+<fieldset>
+<legend class="border-bottom mb-4"> Register!</legend>
+<div class="form-group">
+    {{form.username.label(class="form-control-label")}}
+    {{form.username(class="form-control form-control-lg")}}
+</div>
+</fieldset>
+
+
+
+    </form>
+</div>
+{% endblock contentA %}
